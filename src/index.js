@@ -4,6 +4,7 @@ import './index.css';
 import Game from './App';
 import * as serviceWorker from './serviceWorker';
 
+// se renderea el componente importado Game en el DOM
 ReactDOM.render(<Game />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
